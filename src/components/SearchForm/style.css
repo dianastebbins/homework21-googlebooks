@@ -1,0 +1,11 @@
+.SearchForm {
+    text-align: center;
+    /* background-color: rgba(0,0,0,.03); the gray of the origial accordion */
+    background-color: rgb(240, 220, 240);
+    padding: 30px;
+}
+
+.just-text {
+    padding-left: 30px;
+    padding-right: 30px;
+}
