@@ -44,7 +44,7 @@ export default function BookInfo(props) {
 
                             <Accordion>
                                 <Card>
-                                    <Accordion.Toggle as={Card.Header} eventKey="0" style={toggleStyle}> Open for more info...  button for save as favorite</Accordion.Toggle>
+                                    <Accordion.Toggle as={Card.Header} eventKey="0" style={toggleStyle}> More info... </Accordion.Toggle>
                                     <Accordion.Collapse eventKey="0">
                                         <Card.Body style={cardBodyStyle}>
                                             <p>Categories: Adventure</p>
