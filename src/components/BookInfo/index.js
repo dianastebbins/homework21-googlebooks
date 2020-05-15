@@ -22,10 +22,6 @@ export default function BookInfo(props) {
     const toggleStyle = {
         backgroundColor: "white"
     }
-    
-    const cardBodyStyle = {
-        // backgroundColor: "rgb(240, 220, 240)"
-    }
 
     return (
         <Container className="p-3 BookInfo">
@@ -37,7 +33,7 @@ export default function BookInfo(props) {
     
                     <div className="col-sm-8">
                         <Jumbotron style={jumboStyle} className="pb-1" >
-                            <h4 className="header">Book Title, by Authors</h4>
+                            <h4 className="header">{book.title}, by {book.authors[0]}</h4>
                             <Button name={book.id} bookid={book.id} onClick={props.handleButtonClick} style={buttonStyle}> {props.actionButtonPrompt} </Button>
                             
                             <hr />
@@ -46,7 +42,7 @@ export default function BookInfo(props) {
                                 <Card>
                                     <Accordion.Toggle as={Card.Header} eventKey="0" style={toggleStyle}> More info... </Accordion.Toggle>
                                     <Accordion.Collapse eventKey="0">
-                                        <Card.Body style={cardBodyStyle}>
+                                        <Card.Body>
                                             <p>Categories: Adventure</p>
                                             <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio commodi ex voluptatum quasi, provident, sint saepe sunt beatae odit debitis eos fugiat quae quibusdam eaque velit, animi obcaecati ipsam modi.</p>
                                             <p>Pages:678</p>

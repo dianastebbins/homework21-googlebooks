@@ -10,17 +10,6 @@ body {
   background-size: 100% 250%;
 }
 
-/* body { */
-  /* text-align: center; */
-  /* margin: 0; */
-  /* padding: 0; */
-  /* height: 100vh; */
-  /* font-family: 'Montserrat', sans-serif; */
-  /* color: white; */
-  /* background: linear-gradient(to bottom right, seagreen, rgb(30, 238, 238), rgb(255, 251, 0)); */
-  /* background-size: 400% 400%; */
-/* } */
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -43,7 +43,7 @@ export default function Books() {
         // })
         // 
         console.log("pageModeState is " + pageModeState);
-        console.log("searchContextState is " + searchContextState);    
+        // console.log("searchContextState is " + searchContextState);    
             if(pageModeState === "Search"){
             // set displaybook list to empty for now
             // set displaybook list to api get results
